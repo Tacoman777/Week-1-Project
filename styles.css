@@ -1,0 +1,17 @@
+:root {
+    --distance-x: 0;
+    --distance-y: 0;
+}
+
+body {
+    background-color: black;
+}
+#ball {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: relative;
+    border-radius: 100%;
+    margin-left: var(--distance-x);
+    margin-top: var(--distance-y);
+}
